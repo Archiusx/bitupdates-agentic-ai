@@ -12,9 +12,9 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-from backend.agents.base_agent import BaseAgent
-from backend.utils.config import settings
-from backend.utils.database import mongo
+from base_agent import BaseAgent
+from config import settings
+from database import mongo
 
 
 NOTIFICATION_PROMPT = """
