@@ -15,10 +15,10 @@ from fastapi.responses import JSONResponse
 from pydantic import BaseModel, EmailStr, Field
 import structlog
 
-from backend.utils.config import settings
-from backend.utils.database import mongo, complaint_document, COLLECTIONS
-from backend.agents.orchestrator import orchestrator
-from backend.mcp.gateway import mcp_gateway, serialize_doc
+from config import settings
+from database import mongo, complaint_document, COLLECTIONS
+from orchestrator import orchestrator
+from gateway import mcp_gateway, serialize_doc
 
 log = structlog.get_logger(__name__)
 
