@@ -10,7 +10,7 @@ from typing import Any
 from bson import ObjectId
 
 from base_agent import BaseAgent
-from backend.utils.database import mongo
+from database import mongo
 
 
 ANALYTICS_PROMPT = """
