@@ -9,7 +9,7 @@ from collections import defaultdict, Counter
 from typing import Any
 from bson import ObjectId
 
-from backend.agents.base_agent import BaseAgent
+from base_agent import BaseAgent
 from backend.utils.database import mongo
 
 
