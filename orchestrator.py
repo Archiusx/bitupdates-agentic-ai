@@ -12,13 +12,13 @@ from bson import ObjectId
 import structlog
 
 from base_agent import BaseAgent
-from backend.agents.triage_agent import TriageAgent
-from backend.agents.sentiment_agent import SentimentAgent
-from backend.agents.routing_agent import RoutingAgent
-from backend.agents.chatbot_agent import ChatbotAgent
-from backend.agents.analytics_agent import AnalyticsAgent
-from backend.agents.notification_agent import NotificationAgent
-from backend.utils.database import mongo
+from triage_agent import TriageAgent
+from sentiment_agent import SentimentAgent
+from routing_agent import RoutingAgent
+from chatbot_agent import ChatbotAgent
+from analytics_agent import AnalyticsAgent
+from notification_agent import NotificationAgent
+from database import mongo
 
 log = structlog.get_logger(__name__)
 
