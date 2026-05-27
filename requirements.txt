@@ -12,13 +12,8 @@ motor==3.6.0
 pymongo[srv]==4.10.1
 
 # Google Gemini AI
-# google-cloud-aiplatform==1.74.0
-# numpy==2.2.0
-# pandas==2.2.3
-# scikit-learn==1.6.0
-# sentence-transformers==3.3.1
 google-generativeai==0.8.3
-google-cloud-aiplatform==1.74.0
+# google-cloud-aiplatform==1.74.0
 
 # Agent Framework
 langchain==0.3.9
@@ -49,17 +44,17 @@ structlog==24.4.0
 rich==13.9.4
 
 # Analytics & ML
-numpy==2.2.0
-pandas==2.2.3
-scikit-learn==1.6.0
+# numpy==2.2.0
+# pandas==2.2.3
+# scikit-learn==1.6.0
 
 # Vector Search (for RAG)
-sentence-transformers==3.3.1
+# sentence-transformers==3.3.1
 
 # WebSocket
 websockets==14.1
 
 # Testing
-pytest==8.3.4
-pytest-asyncio==0.24.0
+# pytest==8.3.4
+# pytest-asyncio==0.24.0
 httpx==0.28.1
