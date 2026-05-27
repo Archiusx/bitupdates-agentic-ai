@@ -11,7 +11,7 @@ from typing import Any, Optional
 from bson import ObjectId
 import structlog
 
-from backend.agents.base_agent import BaseAgent
+from base_agent import BaseAgent
 from backend.agents.triage_agent import TriageAgent
 from backend.agents.sentiment_agent import SentimentAgent
 from backend.agents.routing_agent import RoutingAgent
