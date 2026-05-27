@@ -4,7 +4,7 @@ Analyzes emotional tone, urgency, and computes priority score.
 Uses Gemini to understand nuanced student distress signals.
 """
 
-from backend.agents.base_agent import BaseAgent
+from base_agent import BaseAgent
 
 
 SENTIMENT_PROMPT = """
