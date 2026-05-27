@@ -4,7 +4,7 @@ Determines the correct department for a complaint with confidence scores.
 Considers complaint content, category, and campus department structure.
 """
 
-from backend.agents.base_agent import BaseAgent
+from base_agent import BaseAgent
 
 
 # BIT Wardha department structure
