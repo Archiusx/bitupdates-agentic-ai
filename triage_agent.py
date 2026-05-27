@@ -4,7 +4,7 @@ Parses incoming complaints and extracts structured entities.
 Identifies: category, affected entities, keywords, location, severity signals.
 """
 
-from backend.agents.base_agent import BaseAgent
+from base_agent import BaseAgent
 
 
 TRIAGE_PROMPT = """
