@@ -11,7 +11,7 @@ from typing import Any, Callable
 from bson import ObjectId
 import structlog
 
-from backend.utils.database import mongo
+from database import mongo
 
 log = structlog.get_logger(__name__)
 
