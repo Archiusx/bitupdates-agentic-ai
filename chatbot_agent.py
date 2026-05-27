@@ -6,8 +6,8 @@ Uses Retrieval Augmented Generation for grounded answers.
 """
 
 from datetime import datetime, timezone
-from backend.agents.base_agent import BaseAgent
-from backend.utils.database import mongo
+from base_agent import BaseAgent
+from database import mongo
 
 
 # Campus FAQ knowledge base (augmented by MongoDB historical data)
