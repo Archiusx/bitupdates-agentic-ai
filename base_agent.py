@@ -12,7 +12,7 @@ from typing import Any, Optional
 import google.generativeai as genai
 import structlog
 
-from backend.utils.config import settings
+from config import settings
 from backend.utils.database import mongo, agent_log_document, COLLECTIONS
 
 log = structlog.get_logger(__name__)
