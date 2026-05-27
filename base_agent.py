@@ -13,7 +13,7 @@ import google.generativeai as genai
 import structlog
 
 from config import settings
-from backend.utils.database import mongo, agent_log_document, COLLECTIONS
+from database import mongo, agent_log_document, COLLECTIONS
 
 log = structlog.get_logger(__name__)
 
