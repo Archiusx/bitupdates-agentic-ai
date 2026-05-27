@@ -12,7 +12,7 @@ from pymongo import IndexModel, ASCENDING, DESCENDING, TEXT
 from pymongo.errors import CollectionInvalid
 import structlog
 
-from backend.utils.config import settings
+from config import settings
 
 log = structlog.get_logger(__name__)
 
