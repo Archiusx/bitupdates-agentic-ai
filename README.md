@@ -21,6 +21,11 @@
 </div>
 
 ---
+<h2 align="center">🎨 Project Design</h2>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Archiusx/bitupdates-agentic-ai/refs/heads/main/Design.png" alt="Project Design" width="100%">
+</p>
 
 # 📌 Overview
 
